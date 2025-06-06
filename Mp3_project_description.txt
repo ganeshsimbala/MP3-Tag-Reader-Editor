@@ -1,0 +1,5 @@
+This project is a command-line utility written in C that allows users to view and edit metadata (ID3v2 tags) of MP3 files.
+ It reads the ID3 header and associated tag frames, identifies a specific tag such as title, artist, album, year, genre, 
+ or comment, and updates its content with user-provided data. 
+ The program ensures the integrity of the original file by writing changes to a temporary file and only replacing the original if the update is successful. 
+ This project serves as a useful tool for organizing and managing MP3 libraries and also offers educational insight into handling binary file structures and metadata editing in C.
